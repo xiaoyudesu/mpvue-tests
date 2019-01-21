@@ -23,6 +23,8 @@ export default {
   methods: {
     increment () {
       store.commit('increment')
+
+
     },
     decrement () {
       store.commit('decrement')
